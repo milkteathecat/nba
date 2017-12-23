@@ -42,7 +42,8 @@ export class SearchBar extends React.Component {
                 dataSource={options}
                 onSelect={this.onSelect}
                 onSearch={this.handleSearch}
-                placeholder="input here">
+                placeholder="input here"
+                optionLabelProp="value">
                 <Input suffix={<Icon type="search" className="certain-category-icon" />} />
             </AutoComplete>
         );
